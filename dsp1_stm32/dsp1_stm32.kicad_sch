@@ -5,8 +5,63 @@
 	(uuid "677c1a6d-a4b0-452a-a635-4319de61cc8a")
 	(paper "A4")
 	(lib_symbols)
+	(text "PBa = PD0\nPBb = PD1\nPBc = PD2\nPBd = PD3\n\nSWa = PG0\nSWb = PG1\nSWc = PG2\nSWd = PG3"
+		(exclude_from_sim no)
+		(at 116.078 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17694dd3-5f14-4670-90aa-a1196be0fa50")
+	)
+	(text "ADCa = ADC3_INP2\nADCb = ADC3_INP6 / ADC3_INN2\nADCc = ADC1_INP17\nADCd = ADC2_INP14\n\nTIMa = TIM2_CH1\nTIMb = TIM2_CH4\nTIMc = TIM3_CH1\nTIMd = TIM1_CH2"
+		(exclude_from_sim no)
+		(at 74.676 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c96f72a-134a-48be-bd83-a04369cd84cf")
+	)
+	(text "ADC a and b are channels of ADC3.\nADC a-d use potentiometers or pin socket inputs.\n\nTIM a and b are channels of TIM2.\nPB a-d and SW a-d are GPIO Input with Pulldown.\n\nAUX a-c allow differential and seperate single ended measurements.\nAUXa allows OPAMP non-inverting amplification with PGA in OPAMP 1 and 2.\nDAC1 used for AUXout."
+		(exclude_from_sim no)
+		(at 74.676 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6cf701a-641d-4d4e-b98f-98a0f7e559b8")
+	)
+	(text "UARTa = UART7 RX/TX\nUARTb = UART5 RX/TX\n\nI2Cslv  = I2C2 SDA/SCL\nI2Cmstr = I2C4 SDA/SCL"
+		(exclude_from_sim no)
+		(at 204.978 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfbe2d2b-14bd-4ee4-aaaa-00abf3cd8a1c")
+	)
+	(text "AUXa_R -> OPAMP1 -> ADC1_INP8 / ADC1_INN4\nAUXa_T -> OPAMP2 -> ADC1_INP4\n\nAUXb_R -> ADC2_INP10\nAUXb_T -> ADC2_INP11 / ADC2_INN10\n\nAUXc_R -> ADC3_INP5\nAUXc_T -> ADC3_INP9 / ADC3_INN5\n\nDAC1_CH1 -> AUXout_R\nDAC1_CH2 -> AUXout_T"
+		(exclude_from_sim no)
+		(at 142.494 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f13acb7b-0648-4f52-ae2b-3e83f2a19013")
+	)
 	(sheet
-		(at 76.962 31.242)
+		(at 35.56 40.64)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +77,7 @@
 		)
 		(uuid "319e21bc-3ba3-4b5c-8011-2d9664972056")
 		(property "Sheetname" "connectivity"
-			(at 76.962 30.5304 0)
+			(at 35.56 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +86,7 @@
 			)
 		)
 		(property "Sheetfile" "connectivity.kicad_sch"
-			(at 76.962 35.6366 0)
+			(at 35.56 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +103,7 @@
 		)
 	)
 	(sheet
-		(at 112.522 31.75)
+		(at 35.56 53.34)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +119,7 @@
 		)
 		(uuid "96fab632-27d4-488c-9b11-731bc8c3d1fc")
 		(property "Sheetname" "power"
-			(at 112.522 31.0384 0)
+			(at 35.56 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +128,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 112.522 36.1446 0)
+			(at 35.56 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +145,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 32.004)
+		(at 35.56 29.21)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +161,7 @@
 		)
 		(uuid "a6184f54-340e-4697-a970-48f12dfbe245")
 		(property "Sheetname" "mcu_main"
-			(at 39.37 31.2924 0)
+			(at 35.56 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +170,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_main.kicad_sch"
-			(at 39.37 36.3986 0)
+			(at 35.56 33.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
