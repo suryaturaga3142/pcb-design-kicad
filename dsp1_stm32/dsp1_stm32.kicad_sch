@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "677c1a6d-a4b0-452a-a635-4319de61cc8a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 76.962 31.242)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "319e21bc-3ba3-4b5c-8011-2d9664972056")
+		(property "Sheetname" "connectivity"
+			(at 76.962 30.5304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectivity.kicad_sch"
+			(at 76.962 35.6366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dsp1_stm32"
+				(path "/677c1a6d-a4b0-452a-a635-4319de61cc8a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 112.522 31.75)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96fab632-27d4-488c-9b11-731bc8c3d1fc")
+		(property "Sheetname" "power"
+			(at 112.522 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 112.522 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dsp1_stm32"
+				(path "/677c1a6d-a4b0-452a-a635-4319de61cc8a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 32.004)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6184f54-340e-4697-a970-48f12dfbe245")
+		(property "Sheetname" "mcu_main"
+			(at 39.37 31.2924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_main.kicad_sch"
+			(at 39.37 36.3986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dsp1_stm32"
+				(path "/677c1a6d-a4b0-452a-a635-4319de61cc8a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
