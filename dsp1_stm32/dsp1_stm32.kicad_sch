@@ -216,7 +216,7 @@
 	)
 	(text "PBa = PD0\nPBb = PD1\nPBc = PD2\nPBd = PD3\n\nSWa = PG0\nSWb = PG1\nSWc = PG2\nSWd = PG3"
 		(exclude_from_sim no)
-		(at 116.078 40.64 0)
+		(at 113.538 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -227,7 +227,7 @@
 	)
 	(text "ADCa = ADC3_INP2\nADCb = ADC3_INP6 / ADC3_INN2\nADCc = ADC1_INP17\nADCd = ADC2_INP14\n\nTIMa = TIM2_CH1\nTIMb = TIM2_CH4\nTIMc = TIM3_CH1\nTIMd = TIM1_CH2"
 		(exclude_from_sim no)
-		(at 74.676 40.894 0)
+		(at 72.136 49.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -238,7 +238,7 @@
 	)
 	(text "ADC a and b are channels of ADC3.\nADC a-d use potentiometers or pin socket inputs.\n\nTIM a and b are channels of TIM2.\nPB a-d and SW a-d are GPIO Input with Pulldown.\n\nAUX a-c allow differential and seperate single ended measurements.\nAUXa allows OPAMP non-inverting amplification with PGA in OPAMP 1 and 2.\nDAC1 used for AUXout."
 		(exclude_from_sim no)
-		(at 74.676 72.644 0)
+		(at 72.136 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -249,7 +249,7 @@
 	)
 	(text "UARTa = UART7 RX/TX\nUARTb = UART5 RX/TX\n\nI2Cslv  = I2C2 SDA/SCL\nI2Cmstr = I2C4 SDA/SCL"
 		(exclude_from_sim no)
-		(at 204.978 36.576 0)
+		(at 202.438 45.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -260,7 +260,7 @@
 	)
 	(text "AUXa_R -> OPAMP1 -> ADC1_INP8 / ADC1_INN4\nAUXa_T -> OPAMP2 -> ADC1_INP4\n\nAUXb_R -> ADC2_INP10\nAUXb_T -> ADC2_INP11 / ADC2_INN10\n\nAUXc_R -> ADC3_INP5\nAUXc_T -> ADC3_INP9 / ADC3_INN5\n\nDAC1_CH1 -> AUXout_R\nDAC1_CH2 -> AUXout_T"
 		(exclude_from_sim no)
-		(at 142.494 42.672 0)
+		(at 139.954 51.562 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -270,26 +270,26 @@
 		(uuid "f13acb7b-0648-4f52-ae2b-3e83f2a19013")
 	)
 	(junction
-		(at 44.45 109.22)
+		(at 41.91 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "293bf1d5-df3e-4e53-9ee5-560fc9073fc0")
 	)
 	(junction
-		(at 44.45 115.57)
+		(at 41.91 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4fcce9c-8afd-4cd5-a1fd-242b390ecf3a")
 	)
 	(junction
-		(at 44.45 121.92)
+		(at 41.91 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a66cfeda-fd23-47ea-afd1-cc76268b91b5")
 	)
 	(wire
 		(pts
-			(xy 44.45 109.22) (xy 44.45 115.57)
+			(xy 41.91 118.11) (xy 41.91 124.46)
 		)
 		(stroke
 			(width 0)
@@ -299,7 +299,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 115.57) (xy 44.45 121.92)
+			(xy 41.91 124.46) (xy 41.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -309,7 +309,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 102.87) (xy 44.45 109.22)
+			(xy 41.91 111.76) (xy 41.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -319,7 +319,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 121.92) (xy 44.45 127)
+			(xy 41.91 130.81) (xy 41.91 135.89)
 		)
 		(stroke
 			(width 0)
@@ -329,7 +329,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 127 0)
+		(at 41.91 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -338,7 +338,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b5408ee-6cea-4016-9ca4-125608d53a9a")
 		(property "Reference" "#PWR01"
-			(at 44.45 133.35 0)
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 132.08 0)
+			(at 41.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 127 0)
+			(at 41.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 127 0)
+			(at 41.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,7 +373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 127 0)
+			(at 41.91 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,7 +395,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 46.99 121.92 270)
+		(at 44.45 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -404,7 +404,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e8d013f-5858-4395-980a-690bfb2107a0")
 		(property "Reference" "H4"
-			(at 50.8 120.6499 90)
+			(at 48.26 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -413,7 +413,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 50.8 123.1899 90)
+			(at 48.26 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,7 +422,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 46.99 121.92 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 121.92 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +440,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 46.99 121.92 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +462,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 46.99 102.87 270)
+		(at 44.45 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -471,7 +471,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f2e511a-39f4-42a6-8aef-2689c2a4e69b")
 		(property "Reference" "H1"
-			(at 50.8 101.5999 90)
+			(at 48.26 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -480,7 +480,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 50.8 104.1399 90)
+			(at 48.26 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +489,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 46.99 102.87 0)
+			(at 44.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,7 +498,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 102.87 0)
+			(at 44.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,7 +507,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 46.99 102.87 0)
+			(at 44.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +529,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 46.99 115.57 270)
+		(at 44.45 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -538,7 +538,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4e58ae2-5173-43b1-87a3-16c8ae45cbfe")
 		(property "Reference" "H3"
-			(at 50.8 114.2999 90)
+			(at 48.26 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,7 +547,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 50.8 116.8399 90)
+			(at 48.26 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +556,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 46.99 115.57 0)
+			(at 44.45 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 115.57 0)
+			(at 44.45 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,7 +574,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 46.99 115.57 0)
+			(at 44.45 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,7 +596,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 46.99 109.22 270)
+		(at 44.45 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -605,7 +605,7 @@
 		(fields_autoplaced yes)
 		(uuid "efd8e754-4c4f-4c25-8598-2710d10d3c29")
 		(property "Reference" "H2"
-			(at 50.8 107.9499 90)
+			(at 48.26 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +614,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 50.8 110.4899 90)
+			(at 48.26 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,7 +623,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 46.99 109.22 0)
+			(at 44.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -632,7 +632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 109.22 0)
+			(at 44.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,7 +641,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 46.99 109.22 0)
+			(at 44.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +662,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 40.64)
+		(at 33.02 49.53)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -678,7 +678,7 @@
 		)
 		(uuid "319e21bc-3ba3-4b5c-8011-2d9664972056")
 		(property "Sheetname" "connectivity"
-			(at 35.56 39.9284 0)
+			(at 33.02 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -687,7 +687,7 @@
 			)
 		)
 		(property "Sheetfile" "connectivity.kicad_sch"
-			(at 35.56 45.0346 0)
+			(at 33.02 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +704,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 53.34)
+		(at 33.02 62.23)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -720,7 +720,7 @@
 		)
 		(uuid "96fab632-27d4-488c-9b11-731bc8c3d1fc")
 		(property "Sheetname" "power"
-			(at 35.56 52.6284 0)
+			(at 33.02 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,7 +729,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 35.56 57.7346 0)
+			(at 33.02 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -746,7 +746,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 29.21)
+		(at 33.02 38.1)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -762,7 +762,7 @@
 		)
 		(uuid "a6184f54-340e-4697-a970-48f12dfbe245")
 		(property "Sheetname" "mcu_main"
-			(at 35.56 28.4984 0)
+			(at 33.02 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +771,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_main.kicad_sch"
-			(at 35.56 33.6046 0)
+			(at 33.02 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
