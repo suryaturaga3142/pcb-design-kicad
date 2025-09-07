@@ -1,0 +1,46 @@
+# -------------------------------------------------
+# Default behavior
+# -------------------------------------------------
+# Normalize all text files to LF in repo, checkout uses OS default
+* text=auto
+
+# -------------------------------------------------
+# KiCad project files (force LF for portability)
+# -------------------------------------------------
+*.kicad_pcb   text eol=lf
+*.kicad_sch   text eol=lf
+*.kicad_pro   text eol=lf
+*.kicad_prl   text eol=lf
+*.kicad_sym   text eol=lf
+*.kicad_mod   text eol=lf
+*.pretty      text eol=lf
+*.net         text eol=lf
+*.dcm         text eol=lf
+*.lib         text eol=lf
+
+# -------------------------------------------------
+# Windows scripts (force CRLF so they run correctly)
+# -------------------------------------------------
+*.bat         text eol=crlf
+*.cmd         text eol=crlf
+*.ps1         text eol=crlf
+
+# -------------------------------------------------
+# Shell scripts / Makefiles (force LF for Unix tools)
+# -------------------------------------------------
+*.sh          text eol=lf
+Makefile      text eol=lf
+*.mk          text eol=lf
+
+# -------------------------------------------------
+# Binary files (leave untouched)
+# -------------------------------------------------
+*.bin         binary
+*.hex         binary
+*.elf         binary
+*.bit         binary
+*.exe         binary
+*.dll         binary
+*.zip         binary
+*.tar.gz      binary
+*.7z          binary
